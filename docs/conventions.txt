@@ -1,0 +1,7 @@
+x Use setter and getter functions always except when accessing values for the database
+x atributes that are used for the DB are set as protected the least
+x All caps for common core functions that are DB-related
+x use SELF:: only for entity extended classes that have children
+x for attributes that are objects, separate getter
+x attributes(?) that are dependent of other attributes (e.g. total, lists) should be removed (they should be dynamically calculated i.e. DB-dependent) - for future-proof purposes (drawback: is it acceptable to always re-access the DB and recalculate the values?)
+x use traits for bunches of related code that are expected to be reused in other classes (pro: maintainability)

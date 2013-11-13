@@ -1,0 +1,37 @@
+*Until July's end - finalize items first
+*Continue functional phase before the design phase
+*You'd just know if it's time to move on
+
+
+deletion/obsolescence of related objects
+- owner being deleted - use (none)?
+
+x fix function trigger for new inflows and outflows incl. dynamic calc of outstanding amount
+
+
+outflows
+- incur functionality
+
+owner summaries
+- show summary - dynamic
+
+credit card-related expenses
+- automatic cycle selection based on date
+
+allotment related cash flows
+- increase and decrease allotments
+
+
+miscellaneous
+- decimals for values and amount - Javascript
+- error checking - number input instead string and vice versa
+- improve cycles (dates are automatically continuous)
+
+refactor - before UI
+- refactor handling of parent-child tables: use join instead of double db access
+- avoid using * in select statements meant to acces ID only
+- revise how related input fields are being accessed (find a way to group them. use class if no other means is available)
+
+others
+- add currency to budget manager
+- deferred - when a cashflow is moved to another cycle - a copy is created and the original is disabled.

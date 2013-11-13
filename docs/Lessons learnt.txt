@@ -1,0 +1,3 @@
+x use TDS and FDS - as detailed as possible - makes development faster (and incredibly necessary especially for those lazy and lost moments)
+x list tasks per planned day of development (still related with the above, plus, makes short goals clear and achievable)
+x run through how things are going to be used. as the functional development progressed, a number of things become unclear, confusing. if functional design is messed up, the development suffers.
